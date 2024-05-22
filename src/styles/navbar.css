@@ -1,0 +1,71 @@
+body {
+margin: 0;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 300px;
+    color: white;
+  }
+
+  .title{
+    margin-left: 35px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, ;
+  }
+  
+  .navbar .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  .navbar .mainLink {
+    margin-left: auto;
+    margin-right: 60px;
+    
+  }
+  
+  .navbar .main img {
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 33px;
+  }
+  
+  .logo{
+    border: none;
+    background-color: brown;
+    cursor: pointer;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .main svg {
+    font-size: 40px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .main {
+      padding-left: 0px !important;
+    }
+    .navbar .main a {
+      font-size: 13px;
+    }
+    .navbar .mainLink {
+      margin: 0;
+    }
+  }
+  
